@@ -80,3 +80,10 @@ for n in 1...5{
 
 
 
+//BONUS
+
+for ghanima in 1...7{
+    print("********************")
+
+}
+
