@@ -17,10 +17,17 @@ import UIKit
 
 */
 
-
-
-
-
+var foods = ["🍟", "🍔" , "🌮" ,"🍜"]
+foods.append("🍕")
+print(foods[0])
+for food in foods{
+    print(food)
+}
+for food in foods{
+    if food == "🍕" {
+        print("😊🍕 yumm Pizza")
+    }
+}
 //: # 2️⃣  السؤال الثاني
 var numbers = [1,2,3,4,5,6,7,8,9,10]
 /*:
@@ -38,7 +45,14 @@ var numbers = [1,2,3,4,5,6,7,8,9,10]
  ملاحظة: معادله الرقم الزوجي number % 2 == 0
 
 */
-
+var evenNumbers=[Int]()
+for number in numbers{
+    if number % 2 == 0{
+        evenNumbers.append(number)
+        
+    }
+}
+print(evenNumbers)
 //: # 3️⃣  السؤال الثالث
 /*:
 ##
@@ -56,4 +70,13 @@ var numbers = [1,2,3,4,5,6,7,8,9,10]
 
  
  */
-   
+for n in 1...5{
+    print("\(n) * 5 = ",n * 5)
+    for ghanima in 1...10{
+        print("\(n) * 10 = ",ghanima * 10)
+    }
+}
+
+
+
+
